@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "checkJs": true,
+    "isolatedModules": true,
+    "emitDeclarationOnly": true,
+    "jsx": "react",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "bundler",
+    "module": "esnext",
+    "target": "ES2022",
+    "outDir": "./dist",
+    "paths": {
+      "@ohif/core": ["../ohif/platform/core/src"],
+      "@ohif/ui-next": ["../ohif/platform/ui-next/src"],
+      "@ohif/i18n": ["../ohif/platform/i18n/src"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
