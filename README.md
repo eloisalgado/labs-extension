@@ -1,6 +1,6 @@
 # labs-extension 
 ## Description 
-Extension created during Labs work 
+Extension created during OHIF Labs work 
 ## Author 
 Eloizio Salgado 
 ## License 
